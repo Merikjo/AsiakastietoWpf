@@ -1,0 +1,17 @@
+﻿<Window x:Class="AsiakastietoWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsiakastietoWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtNimi" HorizontalAlignment="Left" Height="37" Margin="140,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
+        <Label x:Name="lblNimi" Content="Nimi" HorizontalAlignment="Left" Margin="65,56,0,0" VerticalAlignment="Top" Width="70" Height="37"/>
+        <TextBox x:Name="txtKotiOsoite" HorizontalAlignment="Left" Height="33" Margin="140,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
+        <Label x:Name="lblOsoite" Content="Osoite" HorizontalAlignment="Left" Margin="65,123,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnTervehdys" Content="Henkilön Tervehdys" HorizontalAlignment="Left" Margin="140,176,0,0" VerticalAlignment="Top" Width="186" Height="60" Click="BtnTervehdys_Click"/>
+
+    </Grid>
+</Window>
